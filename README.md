@@ -13,3 +13,4 @@ enter-pssession -computername <aws_instance_ip_1> -Credential(get-credential)
 ```
 By the commands above we create firewall rule for WinRM and adding IPs to the trusted hosts
 
+In this example after certificate created it is mandatory to complete DNS validation on 3-d party with the validation strings given by terrform output or take them directly in AWS console.
